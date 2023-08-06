@@ -1,6 +1,6 @@
 # init-ts
 
-An --un--opinionated batteries included TypeScript project generator.
+An ~~un~~opinionated batteries included TypeScript project generator.
 
 ### Usage
 
