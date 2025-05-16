@@ -1,6 +1,6 @@
 {
 	"name": "@xetrics/init-ts",
-	"version": "2.1.0",
+	"version": "2.2.0",
 	"description": "Creates a barebones Typescript project with batteries included.",
 	"main": "index.js",
 	"bin": {
