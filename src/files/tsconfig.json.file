@@ -1,14 +1,21 @@
 {
-	"compilerOptions": {
-		"module": "commonjs",
-		"moduleResolution": "node",
-		"target": "ES2015",
-		"rootDir": "./src",
-		"resolveJsonModule": true,
-		"outDir": "./bin",
-		"esModuleInterop": true,
-		"forceConsistentCasingInFileNames": true,
-		"strict": true,
-		"skipLibCheck": true
-	}
+        "compilerOptions": {
+                "lib": ["ESNext"],
+                "outDir": "bin",
+                "target": "ES6",
+                "esModuleInterop": true,
+                "moduleResolution": "node",
+                "module": "CommonJS",
+                "paths": {},
+                "sourceMap": true,
+                "sourceRoot": "./src",
+                "allowUnreachableCode": false,
+                "noImplicitAny": true,
+                "strictNullChecks": true,
+                "noImplicitReturns": true,
+                "noUncheckedIndexedAccess": true,
+                "experimentalDecorators": true
+        },
+        "include": ["./src/**/*.ts"],
+        "exclude": ["node_modules/**/*"]
 }
